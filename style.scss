@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: "aleo-regular";
+    src: url("/fonts/aleo/Regular/aleo-regular-webfont.woff2") format("woff2"),
+    url("/fonts/aleo/Regular/aleo-regular-webfont.woff") format("woff");
+   }
+
+li {
+        list-style-type: none; 
+       }
+
+
+.home-container{
+    color: white;
+    width: 100%;
+    height: 100%;
+    background: url(img/home-bg.png) center no-repeat;
+    background-size: cover;
+}
+.home__title{
+    font-size: 48px;
+    font-weight: 700;
+}
+.home__subtitle{
+    font-size: 22px;
+    letter-spacing: 4px;
+    opacity: .7;
+}
+.home__search{
+    font-family: "aleo-regular";
+
+height: auto;
+}
+.home__scroll{
+    opacity: .7;
+}
+.scroll__text{
+    margin-bottom: -10px;
+}
+
+.home__footer{
+    background-color: #5474fd;
+    
+   
+    
+}
+.home__footer-content{
+    max-width: 1100px;
+}
+.footer__logo{
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+}
+.nav-link{
+    font-size: 8px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    &:hover{
+        border: 1px solid rgba(255, 255, 255, 0.489);
+    }
+}
+@media all and (min-width: 350px){
+    .footer__logo{
+        font-size: 24px;
+    }
+    .nav-link{
+        font-size: 14px;
+    }
+}
+
+.home-container--who{
+    background: url(img/who-bg.png) center no-repeat;
+}
+.who-title{
+    font-size: 36px;
+    font-family: "aleo-regular";
+}
+
